@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "superweapon",
+  "version": "${version}",
+  "name": "Super Weapon",
+  "description": "",
+  "authors": ["Dylan"],
+  "contact": {
+      "repo": "https://github.com/Dylan-wg"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.okc.superweapon.SuperWeapon"
+    ]
+  },
+  "mixins": [
+    "superweapon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"}
+}

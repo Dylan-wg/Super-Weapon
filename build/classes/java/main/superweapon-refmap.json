@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/okc/superweapon/Mixin/playerMixin": {
+      "attack": "Lnet/minecraft/class_1657;method_7324(Lnet/minecraft/class_1297;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/okc/superweapon/Mixin/playerMixin": {
+        "attack": "Lnet/minecraft/class_1657;method_7324(Lnet/minecraft/class_1297;)V"
+      }
+    }
+  }
+}
